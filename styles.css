@@ -1,0 +1,730 @@
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px; 
+}
+
+.navbar-custom {
+    background-color: black;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .btn {
+    color: white;
+}
+
+.navbar-custom .btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h3 {
+    margin-top: 10px;
+}
+
+.content p {
+    margin-top: 10px;
+}
+
+.content ul {
+    margin-top: 10px;
+}
+
+.print {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.print h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.print pre {
+    font-size: 18px;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.variables {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.variables h1 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.variables pre {
+    font-size: 16px;
+    background-color: #e9ecef;
+    padding: 8px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.datatype {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.datatype h1 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.datatype pre {
+    font-size: 16px;
+    background-color: #e9ecef;
+    padding: 8px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.string {
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.string h1 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.string pre {
+    font-size: 16px;
+    background-color: #e9ecef;
+    padding: 8px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.input {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.input h1 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.input pre {
+    font-size: 16px;
+    background-color: #e9ecef;
+    padding: 8px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.comments {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.comments h1 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.comments pre {
+    font-size: 16px;
+    background-color: #e9ecef;
+    padding: 8px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.conditional {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.conditional h1 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.conditional pre {
+    font-size: 16px;
+    background-color: #e9ecef;
+    padding: 8px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.switch {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.switch h1 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.switch pre {
+    font-size: 16px;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.logical {
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.logical h1 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.logical pre {
+    font-size: 16px;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.loops {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loops h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.loops p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.loops pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.loops ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.loops li {
+    margin-bottom: 5px;
+}
+
+.break-pass-continue {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.break-pass-continue h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.break-pass-continue p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.break-pass-continue pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.list {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.list p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.list pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.tuple {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tuple h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tuple p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.tuple pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.sets {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sets h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sets p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.sets pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.dict {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dict h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.dict p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.dict pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.functions {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.functions h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.functions p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.functions pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.arguments-parameters {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.arguments-parameters h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.arguments-parameters p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.arguments-parameters ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.arguments-parameters pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.fruitful {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fruitful h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.fruitful p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.fruitful pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.scope {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.scope h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.scope p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.scope pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.exception {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.exception h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.exception p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.exception pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.errors {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.errors h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.errors p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.errors ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.errors li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+.recursion {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.recursion h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.recursion p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.recursion pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.file {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.file h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.file p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.file pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.modules {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.modules h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.modules p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.modules pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.class-object {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.class-object h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.class-object p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.class-object pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.constructor {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.constructor h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.constructor p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.constructor pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.inheritance {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.inheritance h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.inheritance p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.inheritance pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.section h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.section pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
